@@ -282,7 +282,7 @@ class TrackAnalyzer:
 
                     # Barrel mask
                     barrel_mask = (
-                        (r_arr >= 625) & (r_arr <= 660)
+                        (r_arr >= 633) & (r_arr <= 655)
                         & (seg.z >= -1150) & (seg.z <= 1740)
                         & (seg.pathlength >= 580)
                     )
